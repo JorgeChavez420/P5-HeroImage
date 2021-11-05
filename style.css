@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+}
+
+.hero {
+    width: 100vw;
+    height: 100vh;
+    background-color: purple;
+    position: relative;
+}
+
+.hero-content {
+    background-color: #A970FB;
+    width: 600px;
+    height: 300px;
+    position: absolute;
+    left: 64px;
+    bottom: 50%;
+    margin-bottom: -150px;
+}
+
+.content {
+    width: 100vw;
+    height: 300vh;
+}
+
+.boton {
+    border-radius: 10%;
+    border-right: 100px;
+    color: white;
+    padding: 5px;   
+    border-radius: 10%;
+    font-family: serif;
+    text-decoration: none;
+    transition: .3s background-color;
+    background-color: magenta;
+    color: rgb(126, 245, 233);
+    padding: 10px 30px;
+    
+}
+
+.boton:hover {
+    background-color: #D970FB;
+}
